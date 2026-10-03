@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1100" viewBox="0 0 1500 1100" role="img" aria-labelledby="title desc">
+<title id="title">四股外部力量進入歐洲</title>
+<desc id="desc">四個區塊以箭頭進入中央歐洲觀察位置，展示伊斯蘭文明、蒙古歐亞整合、黑死病及東羅馬衰亡與知識流動。</desc>
+<defs>
+<style>text{font-family:'Microsoft JhengHei','Noto Sans TC',sans-serif;fill:#202e40}.heading{font-size:46px;font-weight:700}.label{font-size:29px;font-weight:700}.copy{font-size:24px}.small{font-size:21px}</style>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+<path d="M0 0 L10 5 L0 10Z" fill="#51647c"/>
+</marker>
+</defs>
+<rect width="1500" height="1100" rx="24" fill="#f3f5fa"/>
+<text x="750" y="80" class="heading" text-anchor="middle">把歐洲放回更大的連結中</text>
+<text x="750" y="128" class="copy" text-anchor="middle">四條外部線索，匯入同一個觀察位置</text>
+<rect x="65" y="230" width="430" height="205" rx="20" fill="#dce7fa" stroke="#8d9bb0"/>
+<text x="280" y="290" class="copy" text-anchor="middle">伊斯蘭文明</text>
+<text x="280" y="342" class="small" text-anchor="middle">翻譯・學術・商業</text>
+<text x="280" y="385" class="small" text-anchor="middle">不同城市間的知識流動</text>
+<rect x="1005" y="230" width="430" height="205" rx="20" fill="#e6def3" stroke="#8d9bb0"/>
+<text x="1220" y="290" class="copy" text-anchor="middle">蒙古歐亞整合</text>
+<text x="1220" y="342" class="small" text-anchor="middle">征服・外交・陸路交通</text>
+<text x="1220" y="385" class="small" text-anchor="middle">連結也伴隨暴力與破壞</text>
+<rect x="65" y="700" width="430" height="205" rx="20" fill="#d9ece9" stroke="#8d9bb0"/>
+<text x="280" y="760" class="copy" text-anchor="middle">黑死病</text>
+<text x="280" y="812" class="small" text-anchor="middle">疾病・港口・人口變化</text>
+<text x="280" y="855" class="small" text-anchor="middle">死亡規模因地區而異</text>
+<rect x="1005" y="700" width="430" height="205" rx="20" fill="#e5e7ee" stroke="#8d9bb0"/>
+<text x="1220" y="760" class="copy" text-anchor="middle">東羅馬衰亡與知識流動</text>
+<text x="1220" y="812" class="small" text-anchor="middle">權力轉變・學者・文本</text>
+<text x="1220" y="855" class="small" text-anchor="middle">1453 並非單一原因</text>
+<circle cx="750" cy="560" r="163" fill="#fff" stroke="#51647c" stroke-width="3"/>
+<text x="750" y="540" class="heading" text-anchor="middle">歐洲</text>
+<text x="750" y="590" class="copy" text-anchor="middle">吸收・選擇・改造</text>
+<text x="750" y="630" class="small" text-anchor="middle">內部傳統亦持續作用</text>
+<path d="M495 365L615 465" stroke="#51647c" stroke-width="5" marker-end="url(#arrow)"/>
+<path d="M1005 365L885 465" stroke="#51647c" stroke-width="5" marker-end="url(#arrow)"/>
+<path d="M495 775L615 660" stroke="#51647c" stroke-width="5" marker-end="url(#arrow)"/>
+<path d="M1005 775L885 660" stroke="#51647c" stroke-width="5" marker-end="url(#arrow)"/>
+<text x="750" y="995" class="small" text-anchor="middle">這是概念海報：非地理路線、非同時事件；交流實際上是多向的。</text>
+<text x="750" y="1040" class="small" text-anchor="middle">「外部」相對於本章觀察位置；東羅馬本來也參與歐洲歷史。</text>
+</svg>

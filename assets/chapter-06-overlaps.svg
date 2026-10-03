@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1100" viewBox="0 0 1500 1100" role="img" aria-labelledby="title desc">
+<title id="title">三股力量交疊海報</title>
+<desc id="desc">三圓呈現三組兩兩交集，中央以盾劍象徵騎士作為追問入口，箭頭向外延伸到地方秩序、教會網絡及生活形態。</desc>
+<defs>
+<style>text{font-family:'Microsoft JhengHei','Noto Sans TC',sans-serif;fill:#202e40}.heading{font-size:46px;font-weight:700}.label{font-size:29px;font-weight:700}.copy{font-size:24px}.small{font-size:21px}</style>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+<path d="M0 0 L10 5 L0 10Z" fill="#51647c"/>
+</marker>
+</defs>
+<rect width="1500" height="1100" rx="24" fill="#f3f5fa"/>
+<text x="750" y="72" class="heading" text-anchor="middle">三股力量交疊：探索新的關係</text>
+<text x="750" y="117" class="copy" text-anchor="middle">兩兩交會 → 共同作用 → 向外追問</text>
+<circle cx="750" cy="455" r="285" fill="#97b5e7" fill-opacity=".42" stroke="#97b5e7" stroke-width="3"/>
+<circle cx="550" cy="685" r="285" fill="#aca0d1" fill-opacity=".42" stroke="#aca0d1" stroke-width="3"/>
+<circle cx="950" cy="685" r="285" fill="#82c8c2" fill-opacity=".42" stroke="#82c8c2" stroke-width="3"/>
+<text x="750" y="260" class="label" text-anchor="middle">基督信仰</text>
+<text x="750" y="300" class="small" text-anchor="middle">經典・儀式・組織</text>
+<text x="365" y="730" class="label" text-anchor="middle">日耳曼傳統</text>
+<text x="365" y="770" class="small" text-anchor="middle">誓言・血親・戰士</text>
+<text x="1135" y="730" class="label" text-anchor="middle">希臘羅馬遺產</text>
+<text x="1135" y="770" class="small" text-anchor="middle">文字・法律・治理</text>
+<rect x="425" y="432" width="270" height="82" rx="12" fill="white" fill-opacity=".4"/>
+<text x="560" y="460" class="small" text-anchor="middle">信仰 × 戰士</text>
+<text x="560" y="493" class="small" text-anchor="middle">守誓與騎士理想？</text>
+<rect x="805" y="432" width="270" height="82" rx="12" fill="white" fill-opacity=".4"/>
+<text x="940" y="460" class="small" text-anchor="middle">文字 × 教會</text>
+<text x="940" y="493" class="small" text-anchor="middle">城市與組織網絡？</text>
+<rect x="615" y="797" width="270" height="82" rx="12" fill="white" fill-opacity=".4"/>
+<text x="750" y="825" class="small" text-anchor="middle">誓言 × 法律</text>
+<text x="750" y="858" class="small" text-anchor="middle">效忠與土地關係？</text>
+<rect x="650" y="562" width="200" height="172" rx="22" fill="#fff" fill-opacity=".4"/>
+<path d="M715 580 H770 V617 Q745 650 715 617Z" fill="#ccd9ef" stroke="#51647c" stroke-width="2"/>
+<path d="M793 578V639 M780 617H806" stroke="#51647c" stroke-width="5"/>
+<text x="750" y="678" class="label" text-anchor="middle">共同交集</text>
+<text x="750" y="710" class="small" text-anchor="middle">騎士：追問的象徵</text>
+<path d="M960 280L1190 175" stroke="#51647c" stroke-width="2" stroke-dasharray="5 6" marker-end="url(#arrow)"/>
+<path d="M650 650L105 570" stroke="#51647c" stroke-width="2" stroke-dasharray="5 6" marker-end="url(#arrow)"/>
+<path d="M850 650L1395 570" stroke="#51647c" stroke-width="2" stroke-dasharray="5 6" marker-end="url(#arrow)"/>
+<path d="M750 870L750 970" stroke="#51647c" stroke-width="2" stroke-dasharray="5 6" marker-end="url(#arrow)"/>
+<text x="280" y="550" class="small" text-anchor="middle">領主與地方秩序</text>
+<text x="1220" y="550" class="small" text-anchor="middle">教會與修道網絡</text>
+<text x="750" y="1010" class="small" text-anchor="middle">制度・角色・生活形態</text>
+<text x="750" y="1060" class="small" text-anchor="middle">箭頭不是必然因果；騎士不代表所有共同作用的結果。</text>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1100" viewBox="0 0 1500 1100" role="img" aria-labelledby="title desc">
+<title id="title">三股內在動力並列觀察圖</title>
+<desc id="desc">三個並列區塊分別呈現日耳曼傳統、希臘羅馬遺產及基督信仰的材料與追問，沒有交疊。</desc>
+<defs>
+<style>text{font-family:'Microsoft JhengHei','Noto Sans TC',sans-serif;fill:#202e40}.heading{font-size:46px;font-weight:700}.label{font-size:29px;font-weight:700}.copy{font-size:24px}.small{font-size:21px}</style>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+<path d="M0 0 L10 5 L0 10Z" fill="#51647c"/>
+</marker>
+</defs>
+<rect width="1500" height="1100" rx="24" fill="#f3f5fa"/>
+<text x="750" y="80" class="heading" text-anchor="middle">三股內在動力：先分別觀察</text>
+<text x="750" y="130" class="copy" text-anchor="middle">每一條線索，都從材料與問題開始</text>
+<rect x="65" y="200" width="430" height="650" rx="24" fill="#d9e6fa" stroke="#8593aa"/>
+<circle cx="280" cy="285" r="39" fill="#fff"/>
+<text x="280" y="295" class="label" text-anchor="middle">01</text>
+<text x="280" y="390" class="label" text-anchor="middle">日耳曼傳統</text>
+<text x="280" y="460" class="copy" text-anchor="middle">誓言・血親</text>
+<text x="280" y="505" class="copy" text-anchor="middle">地方習慣・戰士・集會</text>
+<path d="M130 555H430" stroke="#8593aa"/>
+<text x="280" y="630" class="copy" text-anchor="middle">誰向誰承諾？</text>
+<text x="280" y="675" class="copy" text-anchor="middle">群體如何作出決定？</text>
+<rect x="535" y="200" width="430" height="650" rx="24" fill="#e3ddf5" stroke="#8593aa"/>
+<circle cx="750" cy="285" r="39" fill="#fff"/>
+<text x="750" y="295" class="label" text-anchor="middle">02</text>
+<text x="750" y="390" class="label" text-anchor="middle">希臘羅馬遺產</text>
+<text x="750" y="460" class="copy" text-anchor="middle">法律・城市・文字</text>
+<text x="750" y="505" class="copy" text-anchor="middle">工程・治理・哲學</text>
+<path d="M600 555H900" stroke="#8593aa"/>
+<text x="750" y="630" class="copy" text-anchor="middle">哪些制度與技術延續？</text>
+<text x="750" y="675" class="copy" text-anchor="middle">誰保存、修改與使用？</text>
+<rect x="1005" y="200" width="430" height="650" rx="24" fill="#d5ecea" stroke="#8593aa"/>
+<circle cx="1220" cy="285" r="39" fill="#fff"/>
+<text x="1220" y="295" class="label" text-anchor="middle">03</text>
+<text x="1220" y="390" class="label" text-anchor="middle">基督信仰</text>
+<text x="1220" y="460" class="copy" text-anchor="middle">經典・教會組織</text>
+<text x="1220" y="505" class="copy" text-anchor="middle">修道生活・儀式・共同倫理</text>
+<path d="M1070 555H1370" stroke="#8593aa"/>
+<text x="1220" y="630" class="copy" text-anchor="middle">信仰如何安排生活？</text>
+<text x="1220" y="675" class="copy" text-anchor="middle">文本與儀式如何傳承？</text>
+<text x="750" y="950" class="label" text-anchor="middle">先辨認各自的材料；交疊關係在第六章展開。</text>
+<text x="750" y="1010" class="small" text-anchor="middle">三股力量是觀察線索，不是固定民族性格或互不往來的世界。</text>
+</svg>
