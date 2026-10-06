@@ -21,4 +21,10 @@
 | reference/ottoman-expansion-1683.png | 02 鄂圖曼擴張對照 | AtilimGunesBaydin、Visnelma；中文翻譯 Buernia | https://commons.wikimedia.org/wiki/File:OttomanEmpireIn1683-zh-hans.svg | CC0 | 沿用原課程的原圖 PNG；原圖為簡體中文，呈現截至 1683 年歷次擴張，不是全歐政治版圖。 |
 
 
+## 第九章地理空間配圖
+
+- china-topography.jpg：Tom Patterson / US National Park Service, Natural Earth。公有領域。來源：https://commons.wikimedia.org/wiki/File:China_topography_full_res.jpg 。原圖6302×3619；局部放大使用同一底圖，非古代邊界或地形變遷圖。
+- 山地、盆地、河谷與平原的立體區塊：課程原創SVG概念示意，非實測地形。
+
+
 公開版另含課程原創SVG及AI教學示意，非特定歷史現場的精確復原。未確認轉載的原教材圖改為來源連結。
