@@ -1,3 +1,4 @@
+- 2026-10-07：依教師指定，原教材九張圖改為頁內直接收錄，保留圖說來源與原權利人；不宣稱其為開放授權。reference/course-Byax1lWNZx.png、course-HyaobxbVZg.jpg、course-HykY8sJGzl.jpg、course-HJtaAkbEbx.jpg分別取回原HackMD _uploads 同名圖，用於1582年、五世紀末、814年、約1000年歐洲圖；原製圖出處尚未標明。
 - sinitic-languages-zh.svg：Wyunhe及Wikimedia Commons貢獻者，原圖未修改，CC BY 3.0。https://commons.wikimedia.org/wiki/File:Map_of_sinitic_languages_full-zh-hant.svg 。
 - language-diversity.svg：課程原創語言分類例示，非分布地圖。
 # 圖像來源與公開使用狀態
@@ -38,4 +39,4 @@ chapter10-source-1.jpg：人口曲線，原圖Ek7F0AJ.jpg；原始製圖與統�
 - iwanami-series-structure.jpg：使用者2026-10-07提供的書系構成圖照片，明確要求放入網頁，依指定收錄並標示來源；原權利人保留著作權，未聲稱自由授權。
 
 
-公開版另含課程原創SVG及AI教學示意，非特定歷史現場的精確復原。未確認轉載的原教材圖改為來源連結。
+公開版另含課程原創SVG及AI教學示意，非特定歷史現場的精確復原。原課程圖依教師指定直接收錄；來源與原權利人保留於各圖圖說，未另行宣稱開放授權。
