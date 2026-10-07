@@ -26,5 +26,9 @@
 - china-topography.jpg：Tom Patterson / US National Park Service, Natural Earth。公有領域。來源：https://commons.wikimedia.org/wiki/File:China_topography_full_res.jpg 。原圖6302×3619；局部放大使用同一底圖，非古代邊界或地形變遷圖。
 - 山地、盆地、河谷與平原的立體區塊：課程原創SVG概念示意，非實測地形。
 
+## 第十章使用者附圖
+
+chapter10-source-1.jpg：人口曲線，原圖Ek7F0AJ.jpg；原始製圖與統計來源待確認。chapter10-source-2.jpg：漢語族語言分布，原圖ukjzxSC.jpg，署名橫山島主，2016.07.18；轉載授權待確認。兩圖只保留本機，公開版提供https://hackmd.io/nrzJFpXRSpKWgfv1VTXqaw 入口。
+
 
 公開版另含課程原創SVG及AI教學示意，非特定歷史現場的精確復原。未確認轉載的原教材圖改為來源連結。
