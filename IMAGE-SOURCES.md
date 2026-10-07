@@ -1,3 +1,5 @@
+- sinitic-languages-zh.svg：Wyunhe及Wikimedia Commons貢獻者，原圖未修改，CC BY 3.0。https://commons.wikimedia.org/wiki/File:Map_of_sinitic_languages_full-zh-hant.svg 。
+- language-diversity.svg：課程原創語言分類例示，非分布地圖。
 # 圖像來源與公開使用狀態
 
 更新日期：2026-10-03。此表記錄內容工作稿使用的本機圖檔、來源、解讀限制及公開使用邊界。「可公開」表示目前來源頁已標示公眾領域或可公開授權；正式同步網站時仍須保留適當圖說與出處。
