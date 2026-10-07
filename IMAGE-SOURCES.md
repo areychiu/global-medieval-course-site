@@ -1,3 +1,5 @@
+- chapter12-blackboard.jpg：教師原課堂7/1黑板照片，https://hackmd.io/_uploads/Hkbe5fxNWl.jpg ，依指定原圖收錄。
+- 第十二章附圖依教師指定原課程收錄，非開放授權聲明：chapter12-qinhan.jpg（H1aau9xup.jpg）、chapter12-north-south.jpg（B1OqG1-Ebg.jpg）、chapter12-canal.png（SJMMo4gVbx.png）；來源https://hackmd.io/TbqqDsWERrOoWQijnN30Og 。
 - 2026-10-07：依教師指定，原教材九張圖改為頁內直接收錄，保留圖說來源與原權利人；不宣稱其為開放授權。reference/course-Byax1lWNZx.png、course-HyaobxbVZg.jpg、course-HykY8sJGzl.jpg、course-HJtaAkbEbx.jpg分別取回原HackMD _uploads 同名圖，用於1582年、五世紀末、814年、約1000年歐洲圖；原製圖出處尚未標明。
 - sinitic-languages-zh.svg：Wyunhe及Wikimedia Commons貢獻者，原圖未修改，CC BY 3.0。https://commons.wikimedia.org/wiki/File:Map_of_sinitic_languages_full-zh-hant.svg 。
 - language-diversity.svg：課程原創語言分類例示，非分布地圖。
