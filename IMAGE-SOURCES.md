@@ -32,7 +32,7 @@ chapter10-source-1.jpg：人口曲線，原圖Ek7F0AJ.jpg；原始製圖與統�
 
 ## 四區域地理框架與書系構成圖
 
-- region-central.svg、region-steppe.svg、region-south.svg、region-maritime.svg：本課程原創教學示意。海岸／河流：Natural Earth海岸1:110m、河流1:50m，公有領域，https://www.naturalearthdata.com/about/terms-of-use/ 。虛線範圍與海路為概念提示，非古代疆界或實測航線。地名為定位示例，不定義區域的全部範圍。
+- region-central.svg、region-steppe.svg、region-south.svg、region-maritime.svg：本課程原創教學示意。海岸／河流：Natural Earth海岸1:110m（海域圖改用1:50m）、河流1:50m，公有領域，https://www.naturalearthdata.com/about/terms-of-use/ 。虛線範圍與海路為概念提示，非古代疆界或實測航線。地名為定位示例，不定義區域的全部範圍。
 - iwanami-series-structure.jpg：使用者2026-10-07提供的書系構成圖照片，明確要求放入網頁，依指定收錄並標示來源；原權利人保留著作權，未聲稱自由授權。
 
 
