@@ -1,3 +1,4 @@
+- chapter12-family-world.jpg：「家天下」教師黑板畫，原圖https://i.imgur.com/toRd3GJ.jpg ，依指定原圖收錄於第12章02思想與經典。
 - 第12章新增春秋、戰國圖：原課程https://hackmd.io/_uploads/r1wsJcDGa.png 及https://hackmd.io/_uploads/Sk4plqvGa.png ，按教師指定直接收錄，原圖保留。
 - chapter12-song-economy.svg、chapter12-yuan-canal.svg、chapter12-yuan-networks.svg：本課程原創，Natural Earth公有領域現代海岸底圖；交通方向與經濟節點為概念示意，非歷史疆界或流量圖。研究來源見圖說。
 - chapter12-blackboard.jpg：教師原課堂7/1黑板照片，https://hackmd.io/_uploads/Hkbe5fxNWl.jpg ，依指定原圖收錄。
