@@ -1,3 +1,5 @@
+- 第12章新增春秋、戰國圖：原課程https://hackmd.io/_uploads/r1wsJcDGa.png 及https://hackmd.io/_uploads/Sk4plqvGa.png ，按教師指定直接收錄，原圖保留。
+- chapter12-song-economy.svg、chapter12-yuan-canal.svg、chapter12-yuan-networks.svg：本課程原創，Natural Earth公有領域現代海岸底圖；交通方向與經濟節點為概念示意，非歷史疆界或流量圖。研究來源見圖說。
 - chapter12-blackboard.jpg：教師原課堂7/1黑板照片，https://hackmd.io/_uploads/Hkbe5fxNWl.jpg ，依指定原圖收錄。
 - 第十二章附圖依教師指定原課程收錄，非開放授權聲明：chapter12-qinhan.jpg（H1aau9xup.jpg）、chapter12-north-south.jpg（B1OqG1-Ebg.jpg）、chapter12-canal.png（SJMMo4gVbx.png）；來源https://hackmd.io/TbqqDsWERrOoWQijnN30Og 。
 - 2026-10-07：依教師指定，原教材九張圖改為頁內直接收錄，保留圖說來源與原權利人；不宣稱其為開放授權。reference/course-Byax1lWNZx.png、course-HyaobxbVZg.jpg、course-HykY8sJGzl.jpg、course-HJtaAkbEbx.jpg分別取回原HackMD _uploads 同名圖，用於1582年、五世紀末、814年、約1000年歐洲圖；原製圖出處尚未標明。
