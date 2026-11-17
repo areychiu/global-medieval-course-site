@@ -5,6 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>全球中世紀｜課後延伸閱讀</title>
 <link rel="stylesheet" href="style.css?v=20261007-3">
+<link rel="stylesheet" href="assets/mongol-reader.css?v=1">
+<script src="assets/mongol-reader.js?v=1" defer></script>
 </head>
 <body>
 <a class="skip" href="#main">跳到閱讀內容</a>
@@ -316,13 +318,144 @@
 <p><a href="https://kamatiam.org/錯譯的十字軍東征被標籤化的歷史/" target="_blank" rel="noopener">閱讀全文：花亦芬〈錯譯的「十字軍東征」（crusades），被標籤化的歷史〉｜歷史學柑仔店 ↗</a></p>
 </details>
 
-<h4>二、蒙古歐亞整合：兩張地圖對照閱讀</h4>
+<h4 id="chapter7-mongol">二、蒙古歐亞整合：兩張地圖與時間軸</h4>
 <p>以蒙古帝國 1206–1294 年擴張圖，觀察勢力範圍如何橫跨歐亞大陸。先從版圖與地理位置辨認尺度，再追問征服、外交、商業、技術與知識傳遞如何同時發生。</p>
-<div class="mongol-comparison">
+<section id="mongol-reader" class="mongol-reader" aria-labelledby="chapter7-mongol">
+  <nav class="views" aria-label="切換讀圖材料" hidden>
+    <button type="button" aria-controls="mongol-expansion" aria-pressed="true">
+      <span class="step">01</span><span>找擴張</span>
+    </button>
+    <button type="button" aria-controls="mongol-khans" aria-pressed="false">
+      <span class="step">02</span><span>看汗國</span>
+    </button>
+    <button type="button" aria-controls="mongol-time" aria-pressed="false">
+      <span class="step">03</span><span>對時間</span>
+    </button>
+  </nav>
+  <p id="mongol-view-status" class="visually-hidden" role="status"></p>
 
-<figure class="course-figure concept-figure"><a href="assets/reference/mongol-expansion-1206-1294-zh.svg" class="image-link" target="_blank" rel="noopener"><img src="assets/reference/mongol-expansion-1206-1294-zh.svg" alt="蒙古帝國 1206–1294 年擴張示意圖" loading="lazy"><span>開啟大圖 ↗</span></a><figcaption><p>蒙古帝國 1206–1294 年擴張示意圖</p><p class="source">Cattette 原圖，<a href="https://commons.wikimedia.org/wiki/File:Expansion_of_the_Mongol_Empire.svg" target="_blank" rel="noopener">Wikimedia Commons</a>；本課程保留原文並新增繁體中文地名。衍生圖依 <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a> 授權。</p></figcaption></figure>
-<figure class="course-figure concept-figure"><a href="assets/reference/mongol-khans-course-map-zh.svg" class="image-link" target="_blank" rel="noopener" style="display:block;max-width:620px;margin:0 auto"><img src="assets/reference/mongol-khans-course-map-zh.svg" alt="《蒙古可汗及其歷史遺產》｜Mongol Khans and Their Legacy" loading="lazy"><span>開啟大圖 ↗</span></a><figcaption><p>《蒙古可汗及其歷史遺產》｜Mongol Khans and Their Legacy</p><p class="source">National Geographic Society，<em>Mongol Khans and Their Legacy</em>，1996；本課程新增主要汗國中文註記，保留原圖英文。<a href="https://hackmd.io/TbqqDsWERrOoWQijnN30Og" target="_blank" rel="noopener">原課程來源</a>。</p></figcaption></figure>
-</div>
+  <section class="view" id="mongol-expansion" aria-labelledby="mongol-expansion-title">
+    <figure class="sheet campaign">
+      <div class="sheet-head">
+        <span class="eyebrow">圖一 <span aria-hidden="true">/</span> 擴張示意</span>
+        <div class="map-tools">
+          <button id="mongol-legend-button" type="button" aria-controls="mongol-expansion-map" aria-pressed="false" hidden>標出圖例</button>
+          <a class="full" href="assets/reference/mongol-expansion-1206-1294-zh.svg" target="_blank" rel="noopener">開啟大圖 <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <div class="campaign-controls" role="radiogroup" aria-label="選擇擴張年代">
+        <label><input class="visually-hidden" type="radio" name="campaign" value="central" checked aria-controls="mongol-expansion-map mongol-campaign-captions"><time>1219–1220</time><span>進入中亞</span></label>
+        <label><input class="visually-hidden" type="radio" name="campaign" value="western" aria-controls="mongol-expansion-map mongol-campaign-captions"><time>1236–1242</time><span>深入東歐</span></label>
+        <label><input class="visually-hidden" type="radio" name="campaign" value="southern" aria-controls="mongol-expansion-map mongol-campaign-captions"><time>1271–1279</time><span>南下攻宋</span></label>
+      </div>
+      <a class="map-link" id="mongol-expansion-map" href="assets/reference/mongol-expansion-1206-1294-zh.svg" target="_blank" rel="noopener">
+        <img loading="lazy" src="assets/reference/mongol-expansion-1206-1294-zh.svg" width="992" height="595" alt="蒙古帝國 1206 至 1294 年擴張示意圖；左下方圖例以不同顏色對應不同年份。">
+        <svg class="campaign-map" viewBox="0 0 992.13 595.28" aria-hidden="true">
+          <defs>
+            <marker id="mongol-campaign-arrow" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="3" markerHeight="3" orient="auto">
+              <path d="M1 1 11 6 1 11Z" fill="#853c24" stroke="#fffcf3" stroke-width="1.15" stroke-linejoin="round"/>
+            </marker>
+          </defs>
+          <g class="campaign-stage" data-stage="central">
+            <path class="campaign-halo" d="M735 250 C650 253 570 285 494 310 S421 350 390 366"/>
+            <path class="campaign-route" d="M735 250 C650 253 570 285 494 310 S421 350 390 366"/>
+            <circle cx="738" cy="250" r="8"/><text x="738" y="218" text-anchor="middle">蒙古草原</text>
+            <circle cx="380" cy="369" r="8"/><text x="380" y="416" text-anchor="middle">撒馬爾罕</text>
+          </g>
+          <g class="campaign-stage" data-stage="western">
+            <path class="campaign-halo" d="M274 140 Q205 159 136 123 Q88 109 55 88"/>
+            <path class="campaign-route" d="M274 140 Q205 159 136 123 Q88 109 55 88"/>
+            <circle cx="284" cy="142" r="8"/><text x="284" y="113" text-anchor="middle">伏爾加河</text>
+            <circle cx="136" cy="123" r="8"/><text x="136" y="171" text-anchor="middle">基輔</text>
+            <circle cx="45" cy="86" r="8"/><text x="26" y="55">匈牙利</text>
+          </g>
+          <g class="campaign-stage" data-stage="southern">
+            <path class="campaign-halo" d="M842 305 Q824 357 918 384"/>
+            <path class="campaign-route" d="M842 305 Q824 357 918 384"/>
+            <circle cx="843" cy="294" r="8"/><text x="843" y="264" text-anchor="middle">大都</text>
+            <circle cx="930" cy="387" r="8"/><text x="951" y="436" text-anchor="end">臨安</text>
+          </g>
+        </svg>
+        <span class="legend-marker" aria-hidden="true"></span>
+      </a>
+      <ul class="campaign-captions" id="mongol-campaign-captions">
+        <li data-stage="central"><strong>1219–1220</strong><span>成吉思汗向西攻入花剌子模，蒙古軍攻下撒馬爾罕。</span></li>
+        <li data-stage="western"><strong>1236–1242</strong><span>拔都的軍隊從伏爾加河流域打到基輔，再進入匈牙利。</span></li>
+        <li data-stage="southern"><strong>1271–1279</strong><span>元軍南下，南宋都城臨安投降，南宋在 1279 年結束。</span></li>
+      </ul>
+      <figcaption>箭頭示意擴張方向；疆域年代請看底圖圖例。<br>Cattette 原圖，<a href="https://commons.wikimedia.org/wiki/File:Expansion_of_the_Mongol_Empire.svg" target="_blank" rel="noopener">Wikimedia Commons</a>。本課程保留原文並新增繁體中文地名，衍生圖依 <a class="license" href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a> 授權。</figcaption>
+    </figure>
+    <div class="reading">
+      <p class="reading-kicker">從圖例開始 <span>1206–1294</span></p>
+      <h5 id="mongol-expansion-title">從哪裡開始？<br>又擴到哪裡？</h5>
+      <p>切換三段年代，比一比箭頭往哪裡走。再從左下角找出 <strong>1206</strong> 和 <strong>1294</strong> 的圖例，對照底圖的疆域顏色。</p>
+      <p class="prompt"><strong>想一想</strong>從蒙古草原往西看，哪些地名能幫你說明擴張的尺度？試著指出兩個。</p>
+    </div>
+  </section>
+
+  <section class="view" id="mongol-khans" aria-labelledby="mongol-khans-title">
+    <figure class="sheet">
+      <div class="sheet-head">
+        <span class="eyebrow">圖二 <span aria-hidden="true">/</span> 汗國與地理</span>
+        <a class="full" href="assets/reference/mongol-khans-course-map-zh.svg" target="_blank" rel="noopener">開啟大圖 <span aria-hidden="true">↗</span></a>
+      </div>
+      <a class="map-link" href="assets/reference/mongol-khans-course-map-zh.svg" target="_blank" rel="noopener">
+        <img loading="lazy" src="assets/reference/mongol-khans-course-map-zh.svg" width="2048" height="1216" alt="蒙古可汗及其歷史遺產：標示主要汗國、城市、地形及征服路線的課程地圖。">
+      </a>
+      <figcaption>National Geographic Society，<cite>Mongol Khans and Their Legacy</cite>，1996。本課程新增主要汗國中文註記，保留原圖英文。<a href="https://hackmd.io/TbqqDsWERrOoWQijnN30Og" target="_blank" rel="noopener">原課程來源</a>。</figcaption>
+    </figure>
+    <div class="reading">
+      <p class="reading-kicker">從地名開始 <span>以 1294 年為主</span></p>
+      <h5 id="mongol-khans-title">把汗國放回地圖</h5>
+      <p>在大圖上找出<strong>金帳汗國</strong>與<strong>伊兒汗國</strong>。圖上的小圖和附文還涉及其他時期，讀圖時可以分開看。</p>
+      <p class="prompt"><strong>想一想</strong>用一個海、山脈或城市當參照，描述兩個汗國各在哪裡。上一張圖也找得到這個地標嗎？</p>
+    </div>
+  </section>
+
+  <section class="view" id="mongol-time" aria-labelledby="mongol-time-title">
+    <figure class="sheet timeline-sheet">
+      <div class="sheet-head">
+        <span class="eyebrow">圖三 <span aria-hidden="true">/</span> 共用年代刻度</span>
+        <a class="full" href="assets/chapter-07-dynasty-timeline.svg" target="_blank" rel="noopener">完整時間軸 <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="timeline">
+        <p class="chart-title">把蒙古擴張與宋、元擺在一起</p>
+        <div class="chart">
+          <div class="chart-axis" aria-hidden="true">
+            <span style="--x:0%">1200</span><span style="--x:29.4118%">1250</span><span style="--x:58.8235%">1300</span><span style="--x:100%">1370</span>
+          </div>
+          <div class="chart-row"><div class="chart-label"><strong>擴張圖</strong><small>1206–1294</small></div><div class="track"><span class="bar expansion-bar" style="--begin:3.5294%;--end:55.2941%"></span></div></div>
+          <div class="chart-row"><div class="chart-label"><strong>南宋</strong><small>至 1279</small></div><div class="track"><span class="bar song-bar continuing" style="--begin:0%;--end:46.4706%"></span><span class="overlap"></span></div></div>
+          <div class="chart-row"><div class="chart-label"><strong>元</strong><small>1271–1368</small></div><div class="track"><span class="bar yuan-bar" style="--begin:41.7647%;--end:98.8235%"></span><span class="overlap"></span></div></div>
+        </div>
+        <p class="chart-key"><span aria-hidden="true"></span> 斜線標出南宋與元並存的時段：<strong>1271–1279</strong></p>
+      </div>
+      <figcaption>節錄自第七章課程時間軸。南宋在圖的左界 1200 年之前已存在；1294 是擴張圖的截點，各汗國在此之後仍分別延續。</figcaption>
+    </figure>
+    <div class="reading">
+      <p class="reading-kicker">把兩條線疊起來 <span>1271–1279</span></p>
+      <h5 id="mongol-time-title">元已建立，<br>南宋還在嗎？</h5>
+      <p>忽必烈在 <strong>1271</strong> 年建立元朝，南宋在 <strong>1279</strong> 年結束。沿著同一個刻度找找看：哪一小段兩條色帶都有？</p>
+      <p class="prompt"><strong>想一想</strong>如果你活在 1275 年，「那時是宋朝，還是元朝？」你會怎麼回答？</p>
+    </div>
+  </section>
+  <dialog id="mongol-map-viewer" class="map-viewer" aria-labelledby="mongol-viewer-title" aria-describedby="mongol-viewer-help">
+    <header class="viewer-head">
+      <h5 id="mongol-viewer-title">地圖放大</h5>
+      <div class="viewer-actions" role="group" aria-label="調整圖片大小">
+        <button type="button" id="mongol-viewer-smaller" aria-label="縮小">−</button>
+        <button type="button" id="mongol-viewer-larger" aria-label="放大">＋</button>
+        <button type="button" id="mongol-viewer-reset">適合視窗</button>
+        <button type="button" id="mongol-viewer-close" autofocus>關閉</button>
+      </div>
+    </header>
+    <p class="viewer-help" id="mongol-viewer-help">按「＋」放大後，可用捲動或滑動查看各處。</p>
+    <p class="visually-hidden" id="mongol-viewer-status" role="status"></p>
+    <div class="viewer-pane" tabindex="0" role="region" aria-label="可捲動的大圖">
+      <img id="mongol-viewer-image" alt="">
+    </div>
+  </dialog>
+</section>
 
 <details class="dynasty-reading">
 <summary>延伸閱讀｜1206–1294 年，在中國歷史的哪一段？</summary>

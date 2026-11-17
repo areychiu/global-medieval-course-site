@@ -1,0 +1,271 @@
+/* 第七章蒙古讀圖 */
+.mongol-reader {
+  --deep: #204737;
+  --white: #fffef8;
+  container-type: inline-size;
+  margin-block: 18px 26px;
+  line-height: 1.65;
+}
+.mongol-reader .eyebrow { margin: 0; font-size: .77rem; letter-spacing: .09em; }
+.mongol-reader .reading h5, .mongol-reader .viewer-head h5 {
+  font-family: "Noto Serif TC", "PMingLiU", serif;
+}
+.mongol-reader .views {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  border: 1px solid var(--line);
+  background: #eeefe6;
+  border-radius: 7px;
+  padding: 5px;
+  gap: 5px;
+  margin-bottom: 17px;
+}
+.mongol-reader .views button {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: .58rem;
+  min-height: 44px;
+  padding: .63rem .32rem;
+  border: 0;
+  border-radius: 4px;
+  color: var(--deep);
+  background: transparent;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  transition: color 150ms ease, background-color 150ms ease;
+}
+.mongol-reader .views button:hover { background: #e0e7db; }
+.mongol-reader .views button[aria-pressed="true"] { background: var(--deep); color: #fffdf2; }
+.mongol-reader .step { font: 700 .93rem Georgia, serif; color: var(--gold); }
+.mongol-reader .views button[aria-pressed="true"] .step { color: #e7c78f; }
+.mongol-reader .view {
+  display: grid;
+  grid-template-columns: minmax(0, 2.55fr) minmax(198px, 1fr);
+  align-items: start;
+  gap: clamp(14px, 1.8vw, 24px);
+  margin-bottom: 26px;
+}
+@media screen and (prefers-reduced-motion: no-preference) {
+  .mongol-reader #mongol-khans.entering .map-link img,
+  .mongol-reader #mongol-time.entering .timeline { animation: mongol-fade-in 3s ease-out both; }
+}
+@keyframes mongol-fade-in {
+  from { opacity: .06; }
+  to { opacity: 1; }
+}
+.mongol-reader .sheet { margin: 0; border: 1px solid var(--line); border-radius: 7px; background: var(--white); min-width: 0; }
+.mongol-reader .sheet-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: .3rem 1rem;
+  padding: .65rem .9rem;
+}
+.mongol-reader .full { font-size: .78rem; font-weight: 700; }
+.mongol-reader .map-tools { display: flex; flex-wrap: wrap; align-items: center; gap: .65rem; }
+.mongol-reader .map-tools button {
+  padding: .34rem .62rem;
+  min-height: 32px;
+  border: 1px solid #a7b7a7;
+  border-radius: 4px;
+  color: var(--green);
+  background: #eef0e6;
+  font: inherit;
+  font-size: .78rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+.mongol-reader .map-tools button:hover { border-color: var(--green); }
+.mongol-reader .map-tools button[aria-pressed="true"] { background: var(--deep); color: #fffdf2; border-color: var(--deep); }
+.mongol-reader .map-link { display: block; position: relative; }
+.mongol-reader .map-link:focus-visible { outline-offset: -3px; }
+.mongol-reader .map-link img { display: block; width: 100%; height: auto; border-block: 1px solid var(--line); }
+.mongol-reader .campaign-controls {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 5px;
+  padding: 0 .9rem .7rem;
+}
+.mongol-reader .campaign-controls label {
+  display: block;
+  min-width: 0;
+  min-height: 46px;
+  padding: .38rem .25rem;
+  border: 1px solid #d7d9cc;
+  border-radius: 4px;
+  background: #eeefe6;
+  color: var(--deep);
+  font: inherit;
+  font-size: .8rem;
+  font-weight: 700;
+  cursor: pointer;
+  text-align: center;
+  align-content: center;
+}
+.mongol-reader .campaign-controls label:hover { border-color: var(--green); }
+.mongol-reader .campaign-controls label:has(input:checked) { background: var(--deep); color: #fffdf2; border-color: var(--deep); }
+.mongol-reader .campaign-controls label:has(input:focus-visible) { outline: 2px solid #996221; outline-offset: 2px; }
+.mongol-reader .campaign-controls time { margin-inline-end: .5em; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.mongol-reader .campaign { --campaign-fade: 3s; }
+.mongol-reader .campaign .map-link img { filter: saturate(.42); opacity: .67; }
+.mongol-reader .campaign-map { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; }
+.mongol-reader .campaign-stage, .mongol-reader .campaign-captions li { display: none; }
+.mongol-reader .campaign:has([value="central"]:checked) .campaign-stage[data-stage="central"],
+.mongol-reader .campaign:has([value="western"]:checked) .campaign-stage[data-stage="western"],
+.mongol-reader .campaign:has([value="southern"]:checked) .campaign-stage[data-stage="southern"] {
+  display: inline;
+  animation: mongol-campaign-reveal var(--campaign-fade) ease-out;
+}
+@keyframes mongol-campaign-reveal {
+  from { opacity: .2; }
+  to { opacity: 1; }
+}
+.mongol-reader .campaign-halo, .mongol-reader .campaign-route { fill: none; stroke-linecap: round; }
+.mongol-reader .campaign-halo { stroke: #fffcf3; stroke-width: 12; }
+.mongol-reader .campaign-route { stroke: #853c24; stroke-width: 6; stroke-dasharray: 13 9; marker-end: url(#mongol-campaign-arrow); }
+.mongol-reader .campaign-stage circle { fill: #853c24; stroke: #fffcf3; stroke-width: 4; }
+.mongol-reader .campaign-stage text {
+  fill: #443123;
+  stroke: #fffcf3;
+  stroke-width: 6;
+  stroke-linejoin: round;
+  paint-order: stroke;
+  font-size: 24px;
+  font-weight: 800;
+}
+.mongol-reader .campaign-captions { margin: 0; padding: .66rem .9rem; background: #f1ebde; list-style: none; }
+.mongol-reader .campaign-captions li { align-items: baseline; gap: .22rem .72rem; font-size: .89rem; }
+.mongol-reader .campaign:has([value="central"]:checked) li[data-stage="central"],
+.mongol-reader .campaign:has([value="western"]:checked) li[data-stage="western"],
+.mongol-reader .campaign:has([value="southern"]:checked) li[data-stage="southern"] { display: flex; }
+.mongol-reader .campaign-captions strong { color: #704623; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.mongol-reader .sheet .license { white-space: nowrap; }
+.mongol-reader .legend-marker {
+  position: absolute;
+  left: .55%;
+  bottom: 1.15%;
+  width: 5.45%;
+  height: 22.65%;
+  border: 2px solid #254536;
+  outline: 2px solid #fffdf2;
+  border-radius: 3px;
+  pointer-events: none;
+  opacity: 0;
+  transform: scale(1.16);
+  transition: opacity 150ms ease, transform 180ms ease-out;
+}
+.mongol-reader .map-link.legend-visible .legend-marker { opacity: 1; transform: scale(1); }
+.mongol-reader figcaption{ padding: .58rem .9rem; color: var(--muted); font-size: .75rem; overflow-wrap: anywhere; }
+.mongol-reader .reading {
+  background: #ecefe5;
+  border-top: 3px solid #5e7767;
+  border-radius: 4px;
+  padding: clamp(14px, 1.6vw, 22px);
+}
+.mongol-reader .reading-kicker { display: flex; flex-wrap: wrap; gap: .28rem .57rem; align-items: baseline; margin: 0; color: var(--deep); font-size: .78rem; font-weight: 750; }
+.mongol-reader .reading-kicker span { color: var(--gold); }
+.mongol-reader .reading h5 { margin: 8px 0 13px; font-size: clamp(1.22rem, 2vw, 1.55rem); line-height: 1.26; }
+.mongol-reader .reading p { margin: 0; }
+.mongol-reader .reading .prompt { padding-top: 14px; margin-top: 16px; border-top: 1px solid #cbd3c3; font-size: .92rem; }
+.mongol-reader .prompt strong { display: block; color: var(--green); margin-bottom: 3px; }
+.mongol-reader .timeline { border-block: 1px solid var(--line); background: #f2eee1; padding: clamp(16px, 4vw, 50px) clamp(14px, 4.5vw, 52px); }
+.mongol-reader .chart-title { margin: 0 0 24px; font-weight: 700; font-size: clamp(1.15rem, 2.1vw, 1.65rem); }
+.mongol-reader .chart { --label-width: 7rem; }
+.mongol-reader .chart-axis { position: relative; height: 1.5rem; margin: 0 0 4px var(--label-width); border-bottom: 1px solid #b8b7a6; font-size: .73rem; font-variant-numeric: tabular-nums; color: var(--muted); }
+.mongol-reader .chart-axis span { position: absolute; left: var(--x); translate: -50% 0; }
+.mongol-reader .chart-axis span:first-child { translate: 0; }
+.mongol-reader .chart-axis span:last-child { translate: -100% 0; }
+.mongol-reader .chart-row { display: grid; grid-template-columns: var(--label-width) minmax(0, 1fr); align-items: center; min-height: 58px; }
+.mongol-reader .chart-label { padding-right: .3rem; line-height: 1.25; }
+.mongol-reader .chart-label small { display: block; margin-top: 3px; color: var(--muted); font-size: .74rem; }
+.mongol-reader .track { position: relative; background: #e5e2d4; height: 14px; border-radius: 4px; }
+.mongol-reader .bar { position: absolute; inset: 0 calc(100% - var(--end)) 0 var(--begin); border-radius: 4px; }
+.mongol-reader .expansion-bar { background: #42675a; }
+.mongol-reader .song-bar { background: #bd9451; }
+.mongol-reader .song-bar.continuing { border-radius: 0 4px 4px 0; }
+.mongol-reader .yuan-bar { background: #547988; }
+.mongol-reader .overlap, .mongol-reader .chart-key span { background: repeating-linear-gradient(135deg, #263d34 0 2px, #f4e6bb 2px 5px); border: 1px solid #263d34; }
+.mongol-reader .overlap { position: absolute; inset: -3px 53.5294% -3px 41.7647%; }
+.mongol-reader .chart-key { margin: 18px 0 0; font-size: .86rem; }
+.mongol-reader .chart-key span { display: inline-block; width: 16px; height: 12px; margin-right: 4px; }
+.mongol-reader .visually-hidden { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+
+.mongol-reader .viewer-launch { cursor: zoom-in; }
+.mongol-reader .map-viewer {
+  width: min(96vw, 1480px);
+  height: min(90dvh, 980px);
+  max-width: none;
+  max-height: none;
+  padding: 0;
+  border: 1px solid var(--line);
+  border-radius: 9px;
+  color: var(--ink);
+  background: var(--white);
+}
+.mongol-reader .map-viewer[open] { display: flex; flex-direction: column; }
+.mongol-reader .map-viewer::backdrop { background: #172922b8; }
+.mongol-reader .viewer-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: .5rem 1rem;
+  padding: .65rem .9rem .3rem;
+}
+.mongol-reader .viewer-head h5 { margin: 0; font-size: 1.14rem; }
+.mongol-reader .viewer-actions { display: flex; flex-wrap: wrap; gap: .35rem; }
+.mongol-reader .viewer-actions button {
+  min-width: 40px;
+  min-height: 40px;
+  padding: .35rem .6rem;
+  border: 1px solid #a7b7a7;
+  border-radius: 4px;
+  color: var(--deep);
+  background: #eef0e6;
+  font-family: inherit;
+  font-size: .83rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+.mongol-reader .viewer-actions button:disabled { opacity: .45; cursor: default; }
+.mongol-reader #mongol-viewer-close { background: var(--deep); border-color: var(--deep); color: var(--white); }
+.mongol-reader .viewer-help { margin: 0; padding: .1rem .9rem .6rem; font-size: .8rem; color: var(--muted); }
+.mongol-reader .viewer-pane { flex: 1; min-height: 0; overflow: auto; overscroll-behavior: contain; background: #eeece2; }
+.mongol-reader .viewer-pane:focus-visible { outline-offset: -3px; }
+.mongol-reader .viewer-pane img { display: block; width: var(--viewer-width, 100%); height: auto; margin-inline: auto; }
+body:has(.mongol-reader .map-viewer[open]) { overflow: hidden; }
+
+@container (max-width: 620px) {
+  .mongol-reader .view { grid-template-columns: minmax(0, 1fr); gap: 13px; margin-bottom: 20px; }
+  .mongol-reader .reading h5 br { display: none; }
+}
+@container (max-width: 540px) {
+  .mongol-reader .views button { gap: .28rem; font-size: .84rem; }
+  .mongol-reader .step { font-size: .75rem; }
+  .mongol-reader .campaign-controls { padding-inline: .65rem; }
+  .mongol-reader .campaign-controls label { font-size: .77rem; line-height: 1.4; min-height: 49px; }
+  .mongol-reader .campaign-controls time { display: block; margin: 0; }
+  .mongol-reader .campaign-stage text { font-size: 32px; stroke-width: 8; }
+  .mongol-reader .campaign-captions li { flex-direction: column; min-height: 4.6em; }
+  .mongol-reader .chart { --label-width: 4.6rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .mongol-reader .views button, .mongol-reader .legend-marker { animation: none; transition: none; }
+  .mongol-reader .campaign { --campaign-fade: 0s; }
+}
+@media print {
+  .mongol-reader .sheet, .mongol-reader .reading, .mongol-reader .timeline { background: white; }
+  .mongol-reader .views, .mongol-reader .full, .mongol-reader .map-tools, .mongol-reader .legend-marker, .mongol-reader .map-viewer { display: none !important; }
+  .mongol-reader .view, .mongol-reader .view[hidden] { display: block !important; animation: none; break-inside: avoid; }
+  .mongol-reader .reading { margin-top: 8px; }
+  .mongol-reader .reading h5 br { display: none; }
+  .mongol-reader .sheet, .mongol-reader .reading, .mongol-reader .chart { print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+  .mongol-reader .map-link img { max-height: 110mm; object-fit: contain; }
+  .mongol-reader .campaign .map-link img { filter: none; opacity: 1; }
+  .mongol-reader .campaign-controls, .mongol-reader .campaign-map { display: none !important; }
+  .mongol-reader .campaign-captions li { display: flex !important; }
+}
